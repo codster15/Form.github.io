@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .header {
+        border: 1px solid;
+        width: 1221px;
+        text-align: center;
+        margin: 10px 0px 10px 10px;
+        padding: 5px;
+        font-weight: bolder;
+      }
+      .block1details {
+        border: 2px solid;
+        width: 250px;
+        height: 25px;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 10px;
+        position: absolute;
+        top: -20px;
+        left: 99px;
+        background-color: white;         
+      }
+
+      .maincenterbox {
+        border: 1px solid;
+        width: 1220px;
+        height: 1075px;
+        margin: 10px;
+        margin-left: 10px;
+        padding: 5px;
+      }
+      .block11 {
+        position: relative;
+      }
+
+      .block1,
+      .block2,
+      .block3,
+      .block4 {
+        border: 1px solid;
+        width: 1195px;
+        height: 200px;
+        margin: 30px 10px;
+      }
+
+      .studentdiv {
+        margin: 25px 0px 0px 25px;
+      }
+
+      .studentname {
+        margin-top: 10px;
+        margin-left: 100px;
+        width: 250px;
+        height: 30px;
+      }
+
+      .mail-id-div {
+        margin: 15px 0px 0px 25px;
+      }
+
+      .mailid {
+        margin-left: 143px;
+        width: 250px;
+        height: 30px;
+      }
+
+      .genderdiv {
+        margin: 15px 0px 0px 25px;
+      }
+
+      .radiomail {
+        margin-left: 155px;
+      }
+
+      .radiofemail {
+        margin-left: 100px;
+      }
+
+      .couse {
+        margin: 15px 0px 0px 25px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+
+      .seletcouse {
+        margin-left: 84px;
+        margin-top: 10px;
+
+        width: 250px;
+        height: 30px;
+      }
+      .QUalifictiondiv {
+        margin: 25px 0px 0px 25px;
+      }
+      .QUalifiction {
+        margin-top: 10px;
+        margin-left: 110px;
+        width: 250px;
+        height: 30px;
+      }
+      .language {
+        margin: 25px 0px 0px 25px;
+      }
+      .hindi,
+      .english,
+      .urdu,
+      .telgu {
+        margin-left: 110px;
+      }
+      .a1 {
+        margin-left: 90px;
+      }
+      .street {
+        margin-left: 95px;
+      }
+      .streetdiv {
+        margin-top: 0px;
+      }
+      .block3 {
+        position: relative;
+      }
+      .block2 {
+        position: relative;
+      }
+      .block4 {
+        position: relative;
+      }
+
+      .country {
+        margin-top: 52px;
+        margin-left: 66px;
+        width: 250px;
+      }
+      .landmark {
+        margin-top: 60px;
+      }
+      .land {
+        margin-top: 49px;
+        margin-left: 56px;
+        width: 240px;
+      }
+      .b4 {
+        height: 300px;
+        position: absolute;
+      }
+      .about {
+        border: 1px solid;
+        height: 220px;
+        width: 866px;
+        margin-top: 15px;
+        margin-left: 149px;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+      }
+      .self {
+        margin-top: 88px;
+        margin-left: 60px;
+      }
+      .footer {
+        border: 1px solid;
+        width: 1221px;
+        text-align: center;
+        margin: 10px 0px 10px 10px;
+        padding: 5px;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- header part -->
+    <div class="header">Student Resgistration Page</div>
+
+    <!-- main part -->
+    <div class="maincenterbox">
+      <!-- block1 -->
+      <div class="block1 block11">
+        <form action="">
+          <div class="block1details">Personal Details</div>
+
+          <div class="studentdiv">
+            <label for="">Student Name:</label>
+            <input
+              type="text"
+              placeholder="Enter youyr name"
+              class="studentname"
+            />
+          </div>
+
+          <div class="mail-id-div">
+            <label for="">Mail Id:</label>
+            <input
+              type="text"
+              placeholder="Enter Your  Mail Id"
+              class="mailid"
+            />
+          </div>
+          <div class="genderdiv">
+            <label for="gender">gender</label>
+            <input type="radio" name="gender" class="radiomail" /> male
+            <input type="radio" name="gender" class="radiofemail" />femail
+          </div>
+
+          <div class="couse">
+            <label for=""> Course opted :</label>
+            <select name="course" id="" class="seletcouse">
+              select Course
+              <option value="" aria-placeholder="select course"></option>
+              <option value="">hindi</option>
+              <option value="">english</option>
+              <option value="">maths</option>
+              <option value="">science</option>
+              <option value="">computers</option>
+            </select>
+          </div>
+        </form>
+      </div>
+
+      <!-- block2 -->
+      <div class="block2">
+        <div class="block1details">Education Details</div>
+
+        <form action="">
+          <div class="QUalifictiondiv">
+            <label for="">Qualifiction:</label>
+            <input
+              type="text"
+              placeholder="Enter Your QUalifiction"
+              class="QUalifiction"
+            />
+          </div>
+          <div class="language">
+            Language Known
+            <input type="checkbox" id="check" class="hindi" /><label for="check"
+              >hindi</label
+            >
+            <input type="checkbox" id="check" class="english" /><label
+              for="check"
+              >english</label
+            >
+            <input type="checkbox" id="check" class="urdu" /><label for="check"
+              >urdu</label
+            >
+            <input type="checkbox" id="check" class="telgu" /><label for="check"
+              >telgu</label
+            >
+          </div>
+
+          <div class="QUalifictiondiv">
+            <label for="">Average Marks:</label>
+            <input type="text" class="QUalifiction a1" />
+          </div>
+        </form>
+      </div>
+
+      <!-- block3 -->
+      <div class="block3">
+        <div class="block1details">Address</div>
+
+        <form action="">
+          <div class="QUalifictiondiv">
+            <label for="">House No:</label>
+            <input type="text" class="QUalifiction" />
+          </div>
+          <div class="QUalifictiondiv streetdiv">
+            <label for="">Street Name:</label>
+            <input type="text" class="QUalifiction street" />
+          </div>
+          <div class="QUalifictiondiv streetdiv">
+            <label for="">House No:</label>
+            <input type="text" class="QUalifiction state" />
+          </div>
+          <div class="couse state1">
+            <label for="" class="statemov"> State :</label>
+            <select name="course" id="" class="seletcouse">
+              <option value="">Select state</option>
+              <option value="">UttarPradesh</option>
+              <option value="">Rajisthan</option>
+              <option value="">Gujrat</option>
+              <option value="">bihar</option>
+              <option value="">tamilnadu</option>
+            </select>
+          </div>
+          <div class="couse state1">
+            <label for=""> Country :</label>
+            <select name="course" id="" class="seletcouse country">
+              <option value="">Select country</option>
+              <option value="">INDIA</option>
+              <option value="">AUSTRALIA</option>
+              <option value="">AMERICA</option>
+              <option value="">JAPAN</option>
+              <option value="">GERMANY</option>
+            </select>
+          </div>
+          <div class="couse state1 landmark">
+            <label for="">LandMark:</label>
+            <input type="text" class="seletcouse land" />
+          </div>
+        </form>
+      </div>
+
+      <!-- block4 -->
+
+      <div class="block4 b4">
+        <div class="block1details">About Your Self</div>
+
+        <form action="">
+          <div class="self">About Your Self :</div>
+          <textarea class="about"></textarea>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">@copy rights 2022</div>
+  </body>
+</html>
